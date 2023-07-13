@@ -1,0 +1,17 @@
+﻿<Application x:Class="WpfApp1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp1"
+             StartupUri="View/MainView.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <ResourceDictionary Source="Resource Dictionaries/ComboBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Resource Dictionaries/Label.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Resource Dictionaries/TextBox.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Resource Dictionaries/Button.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Car1.webp" />
+    <None Remove="Images\Car2.webp" />
+    <None Remove="Images\Car3.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Car1.webp" />
+    <Resource Include="Images\Car2.webp" />
+    <Resource Include="Images\Car3.webp" />
+  </ItemGroup>
+
+</Project>
