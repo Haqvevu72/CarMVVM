@@ -22,10 +22,9 @@ namespace WpfApp1.View
     /// </summary>
     public partial class MainView : Window
     {
+         
         public MainView()
         {
-            InitializeComponent();
-            DataContext = new MainViewModel();
         }
     }
 }

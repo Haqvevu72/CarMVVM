@@ -3,7 +3,11 @@
 
     <Style x:Key="button_design" TargetType="Button">
         <Setter Property="Height" Value="30"></Setter>
-        <Setter Property="Width" Value="40"></Setter>
+        <Setter Property="Width" Value="49"></Setter>
         <Setter Property="Margin" Value="10"></Setter>
+        <Setter Property="Background" Value="BlueViolet"></Setter>
+        <Setter Property="FontSize" Value="14"></Setter>
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontWeight" Value="Bold"></Setter>
     </Style>
 </ResourceDictionary>
